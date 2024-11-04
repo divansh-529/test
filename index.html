@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="w-full">
+        <div class="navbar-parent border-b border-solid border-[#00000029]">
+            <!-- Navbar -->
+            <nav class=" mx-auto max-w-[1488px] flex items-center pt-[26px] pb-7 work-sans  ">
+                <div class="container !px-3 mx-auto flex  items-center justify-between">
+                    <div class="one flex items-center max-lg:justify-between">
+                        <!-- Logo / Brand -->
+                        <div class="text-[#1B1A19] text-[28px] max-sm:text-[20px] leading-[150%]  font-extrabold mr-8 ">
+                            UIUX Designer</div>
+
+                        <!-- Toggle Button (hidden on large screens) -->
+                        <button id="menu-toggle" class="lg:hidden text-[#1B1A19] focus:outline-none">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h16">
+                                </path>
+                            </svg>
+                        </button>
+
+                        <!-- Links and Social Icons -->
+                        <div id="menu" class="hidden lg:flex lg:items-center space-x-4 ">
+                            <!-- Navbar Links -->
+                            <ul
+                                class="flex flex-col lg:flex-row lg:space-x-8 text-[20px] font-semibold leading-[30px] text-[#1B1A19]">
+                                <li><a href="#home" class="">Home</a></li>
+                                <li><a href="#work" class="">Work</a></li>
+                                <li><a href="#testimonials" class="">Testimonials</a></li>
+                                <li><a href="#about" class="">About</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- Social Icons -->
+                    <ul class="flex space-x-4 max-sm:space-x-2 text-[#1B1A19] items-center  lg:mt-0">
+                        <li><a href="#behance"><img src="/assets/images/svg/drible.svg" alt="thank"></a></li>
+                        <li><a href="#instagram" class=""><img src="/assets/images/svg/instagram.svg" alt="thank"></a>
+                        </li>
+                        <li><a href="#pinterest" class=""><img src="/assets/images/svg/pintrest.svg" alt="thank"></a>
+                        </li>
+                        <li><a href="#linkedin" class=""><img src="/assets/images/svg/linkedin.svg" alt="thank"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="header pt-[45px] pb-[124px]">
+            <div class="container !px-3 mx-auto max-w-[1488px]">
+                <div class="row flex  flex-wrap items-center">
+                    <div
+                        class="col-6 w-1/2 max-xl:w-full max-xl:mx-auto max-xl:items-center max-xl:flex max-xl:justify-center flex-col max-w-[742px]">
+                        <button class="max-w-[180px] px-6 py-3 rounded-[10px]  bg-[#E91145]">
+                            <p class="work-sans font-medium text-[24px] leading-[150%] text-white">👋Hello All</p>
+                        </button>
+                        <p
+                            class="mt-6 eczar max-sm:text-[40px] max-xl:text-center max-w-[549px] mb-10 font-semibold text-[64px]  leading-[125%]">
+                            I’m Riyum P,
+                            A UI/UX Designer
+                            and Developer
+                        </p>
+                        <div class="two buttons flex items-center gap-4">
+                            <button
+                                class="py-[18px] max-sm:py-[10px] cursor-pointer px-[25px] max-sm:px-[15px] items-center text-[20px] leading-[150%] font-semibold text-[#F3F2FF] flex rounded-[5px] bg-[#E91145]">
+                                View <span class="max-sm:hidden ">My Work</span><img
+                                    src="/assets/images/svg/view-my-work.svg" class="pl-[12px]" alt="thanks">
+                            </button>
+                            <button
+                                class="py-[15px] max-sm:py-[8px] cursor-pointer px-[55px] max-sm:px-[25px] items-center text-[20px] leading-[150%] border-[4px] border-solid border-[#E91145] font-semibold text-[#4D5566] flex rounded-[5px] ">
+                                Contact Me
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-6 w-1/2 max-xl:w-full max-xl:mt-6 max-xl:mx-auto max-w-[733px]">
+                        <div class="max-w-[733px] rounded-[30px] ml-3">
+                            <img src="/assets/images/png/header-image.png" alt="gscg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-16 pb-40 bg-[#E91145ED]">
+        <div class="container max-w-[1509px] !px-3 mx-auto">
+
+            <div class="flex items-center  max-sm:flex-col max-sm:gap-5 gap-[61px]">
+                <p class="eczar text-[40px]  text-white leading-[125%]">Featured Work</p>
+                <button
+                    class="rounded-[5px] text-[20px] leading-[150%] font-semibold py-4 text-white px-[38.5px] border-[4px] border-solid border-white">
+                    View more on Behance
+                </button>
+            </div>
+            <div class="rounded-[30px] bg-white max-xl:flex-wrap-reverse flex mt-[57px] justify-between  ">
+                <div class="box-one mt-12 max-xl:mx-auto ml-[114px] mb-12">
+                    <p class="work-sans font-semibold text-[32px] leading-[150%] max-xl:text-center ">Sheepify States
+                    </p>
+                    <p
+                        class="work-sans font-semibold text-[24px] max-xl:text-center max-w-[623px] mb-6 mt-1 leading-[150%] text-[#594F43]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa amet etiam quis semper sit lacus
+                        blandit. Diam nam mi
+                        tortor feugiat nunc. Amet enim nisi ac imperdiet nisl, feugiat faucibus amet mi. Volutpat
+                        sollicitudin euismod facilisis
+                        morbi ullamcorper velit, elementum.
+                    </p>
+                    <p class="max-xl:text-center"> <a href="#"
+                            class="text-[24px] leading-[150%] max-xl:text-center  font-semibold text-black">Live
+                            View</a></p>
+                </div>
+                <div class="max-xl:max-w-[620px] max-xl:rounded-[30px] max-xl:mx-auto overflow-hidden">
+                    <img src="/assets/images/png/feactured-work-c-1.png" class="max-xl:w-full xl:h-full" alt="">
+                </div>
+            </div>
+            <div class="rounded-[30px] bg-white max-xl:flex-wrap-reverse flex mt-[57px] justify-between  ">
+                <div class="box-one mt-20 max-xl:mx-auto ml-[114px] mb-20">
+                    <p class="work-sans font-semibold text-[32px] leading-[150%] max-xl:text-center ">Interior Design
+                    </p>
+                    <p
+                        class="work-sans font-semibold text-[24px] max-xl:text-center max-w-[623px] mb-6 mt-1 leading-[150%] text-[#594F43]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa amet etiam quis semper sit lacus
+                        blandit. Diam nam mi
+                        tortor feugiat nunc. Amet enim nisi ac imperdiet nisl.
+                    </p>
+                    <p class="max-xl:text-center"> <a href="#"
+                            class="text-[24px] leading-[150%] max-xl:text-center  font-semibold text-black">Live
+                            View</a></p>
+                </div>
+                <div class="max-xl:max-w-[620px] max-xl:rounded-[30px] max-xl:mx-auto overflow-hidden">
+                    <img src="/assets/images/png/interior-design-c-2.png" class="max-xl:w-full xl:h-full" alt="">
+                </div>
+            </div>
+            <div class="rounded-[30px] bg-white max-xl:flex-wrap-reverse flex mt-[57px] justify-between  ">
+                <div class="box-one mt-[102px] max-xl:mx-auto ml-[114px] mb-[102px]">
+                    <p class="work-sans font-semibold text-[32px] leading-[150%] max-xl:text-center ">IOS UI/UX Design
+                    </p>
+                    <p
+                        class="work-sans font-semibold text-[24px] max-xl:text-center max-w-[623px] mb-6 mt-1 leading-[150%] text-[#594F43]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa amet etiam quis semper sit lacus
+                        blandit. Diam nam mi
+                        torto
+                    </p>
+                    <p class="max-xl:text-center"> <a href="#"
+                            class="text-[24px] leading-[150%] max-xl:text-center  font-semibold text-black">Live
+                            View</a></p>
+                </div>
+                <div class="max-xl:max-w-[620px] max-xl:rounded-[30px] max-xl:mx-auto overflow-hidden">
+                    <img src="/assets/images/png/ios-ui-ux-c-3.png" class="max-xl:w-full xl:h-full" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slick-slider-section -->
+    <!-- <section class="pt-[118px]">
+        <p class="eczar font-semibold text-center text-[40px] leading-[125%] text-[020202]">Some Generous Words</p>
+        <p class="work-sans text-[20px] text-center mb-[66px] leading-[150%] text-[#594F43]">Some of my favorite
+            testimonials from
+            my clients
+        </p>
+        <div class="slick-slider-parent">
+            <div class="card-slider flex items-center flex-col max-w-[539px]">
+                <p class="max-w-[539px] work-sans font-normal text-[20px] leading-[150%] text-center">I had grown a
+                    little bit disappointed when I realized that my work would not be taking me in any new, creative
+                    design
+                    directions. Thankfully, I found Salman Khan and his creativity that goes above and beyond, proving
+                    to be exactly what I
+                    needed to take.</p>
+                <p class="text-[20px] mb-[17px] leading-[125%] text-center font-bold mt-[17px]">Aika Chan</p>
+                <ul class="flex space-x-4  max-sm:space-x-2 text-[#1B1A19] items-center  lg:mt-0">
+                    <li><a href="#behance"><img src="/assets/images/svg/drible.svg" alt="thank"></a></li>
+                    <li><a href="#instagram" class=""><img src="/assets/images/svg/instagram.svg" alt="thank"></a>
+                    </li>
+                    <li><a href="#pinterest" class=""><img src="/assets/images/svg/pintrest.svg" alt="thank"></a>
+                    </li>
+                    <li><a href="#linkedin" class=""><img src="/assets/images/svg/linkedin.svg" alt="thank"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-slider flex items-center flex-col max-w-[539px]">
+                <p class="max-w-[539px] work-sans font-normal text-[20px] leading-[150%] text-center">I had grown a
+                    little bit disappointed when I realized that my work would not be taking me in any new, creative
+                    design
+                    directions. Thankfully, I found Salman Khan and his creativity that goes above and beyond, proving
+                    to be exactly what I
+                    needed to take.</p>
+                <p class="text-[20px] mb-[17px] leading-[125%] text-center font-bold mt-[17px]">Aika Chan</p>
+                <ul class="flex space-x-4  max-sm:space-x-2 text-[#1B1A19] items-center  lg:mt-0">
+                    <li><a href="#behance"><img src="/assets/images/svg/drible.svg" alt="thank"></a></li>
+                    <li><a href="#instagram" class=""><img src="/assets/images/svg/instagram.svg" alt="thank"></a>
+                    </li>
+                    <li><a href="#pinterest" class=""><img src="/assets/images/svg/pintrest.svg" alt="thank"></a>
+                    </li>
+                    <li><a href="#linkedin" class=""><img src="/assets/images/svg/linkedin.svg" alt="thank"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-slider flex items-center flex-col max-w-[539px]">
+                <p class="max-w-[539px] work-sans font-normal text-[20px] leading-[150%] text-center">I had grown a
+                    little bit disappointed when I realized that my work would not be taking me in any new, creative
+                    design
+                    directions. Thankfully, I found Salman Khan and his creativity that goes above and beyond, proving
+                    to be exactly what I
+                    needed to take.</p>
+                <p class="text-[20px] mb-[17px] leading-[125%] text-center font-bold mt-[17px]">Aika Chan</p>
+                <ul class="flex space-x-4  max-sm:space-x-2 text-[#1B1A19] items-center  lg:mt-0">
+                    <li><a href="#behance"><img src="/assets/images/svg/drible.svg" alt="thank"></a></li>
+                    <li><a href="#instagram" class=""><img src="/assets/images/svg/instagram.svg" alt="thank"></a>
+                    </li>
+                    <li><a href="#pinterest" class=""><img src="/assets/images/svg/pintrest.svg" alt="thank"></a>
+                    </li>
+                    <li><a href="#linkedin" class=""><img src="/assets/images/svg/linkedin.svg" alt="thank"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-slider flex items-center flex-col max-w-[539px]">
+                <p class="max-w-[539px] work-sans font-normal text-[20px] leading-[150%] text-center">I had grown a
+                    little bit disappointed when I realized that my work would not be taking me in any new, creative
+                    design
+                    directions. Thankfully, I found Salman Khan and his creativity that goes above and beyond, proving
+                    to be exactly what I
+                    needed to take.</p>
+                <p class="text-[20px] mb-[17px] leading-[125%] text-center font-bold mt-[17px]">Aika Chan</p>
+                <ul class="flex space-x-4  max-sm:space-x-2 text-[#1B1A19] items-center  lg:mt-0">
+                    <li><a href="#behance"><img src="/assets/images/svg/drible.svg" alt="thank"></a></li>
+                    <li><a href="#instagram" class=""><img src="/assets/images/svg/instagram.svg" alt="thank"></a>
+                    </li>
+                    <li><a href="#pinterest" class=""><img src="/assets/images/svg/pintrest.svg" alt="thank"></a>
+                    </li>
+                    <li><a href="#linkedin" class=""><img src="/assets/images/svg/linkedin.svg" alt="thank"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section> -->
+    <section>
+        <div class="flex items-center justify-between max-2xl:flex-wrap-reverse max-xl:!px-3 xl:pl-[127px] ">
+            <div class=" max-2xl:mx-auto max-2xl:flex max-2xl:items-center max-2xl:justify-center max-2xl:flex-col">
+                <p class="text-[#020202] text-[40px] max-2xl:text-center leading-[125%] eczar">A Little Bit About Me
+                </p>
+                <p
+                    class="work-sans text-[20px] leading-[150%] max-2xl:text-center mb-10 text-[#030303] mt-[42px] max-w-[679px]">
+                    Lorem ipsum
+                    dolor
+                    sit amet,
+                    consectetur adipiscing elit. Quisque ipsum, scelerisque proin consequat tristique tortor,
+                    amet nullam. Eu purus blandit luctus faucibus justo venenatis a. Auctor vitae sed arcu curabitur
+                    tincidunt nibh. Lacinia
+                    ornare magnis amet blandit nisl urna tincidunt eget. Urna sed etiam auctor ut netus sed sed.
+                    Gravida
+                    habitant eu gravida
+                    id neque, facilisis. <br> <br>
+
+                    Neque lectus elit massa aenean turpis quam aliquet.Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Quisque
+                    ipsum, scelerisque proin consequat tristique tortor, amet nullam. Eu purus blandit luctus
+                    faucibus
+                    justo venenatis a.</p>
+                <button
+                    class="border-[4px] rounded max-2xl:text-center max-2xl:mx-auto border-[#EB2252] work-sans font-semibold text-[20px] leading-[150%] border-solid py-[15px] px-[47px]">
+                    Contact Me
+                </button>
+            </div>
+            <img src="/assets/images/png/a-littel-bit-more-about-me.png" class="max-2xl:mx-auto" alt="thanks">
+        </div>
+    </section>
+    <footer class="pt-[72px] pb-[85px] bg-[#E91145ED]">
+        <p class="text-[20px] leading-[150%] text-white text-center">© Copyright ChiranjitH.com</p>
+    </footer>
+    <script src="/assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>
