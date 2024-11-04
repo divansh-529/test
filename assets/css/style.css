@@ -9,3 +9,11 @@
     font-family: "Eczar",
         serif;
 }
+
+.hidden {
+    display: none;
+}
+
+.transition-custom {
+    transition: all .3s linear;
+}
